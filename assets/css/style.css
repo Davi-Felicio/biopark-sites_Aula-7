@@ -1,0 +1,43 @@
+
+
+body {
+    background-color: #1c2233;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #c1cbe8;
+}
+.titulo-principal {
+    text-align: center;
+    
+}
+.titulo {
+    color: orange;
+    font-size: 22px;
+}
+
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px; /* Espaço superior */
+    
+}
+
+.container-conteudo {
+    display: inline-block;
+    width: 250px; /* Largura dos blocos */
+    height: 250px;
+    background-color: #373f55;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    
+
+    
+}
+
+/* Adiciona margem inferior para espaçamento entre os blocos */
